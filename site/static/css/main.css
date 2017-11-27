@@ -2811,12 +2811,14 @@
 				bottom: 0;
 				content: '';
 				display: block;
-				height: 100%;
+				height: 110%;
 				left: 0;
 				opacity: 0.85;
 				position: absolute;
-				width: 100%;
+				width: 110%;
 				z-index: 2;
+				bottom: -1px;
+				left: -1px;
 			}
 
 			.tiles article:after {

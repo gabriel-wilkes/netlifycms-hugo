@@ -10,7 +10,7 @@
     <nav id="menu">
         <ul class="links">
             {{ range .Site.Params.Navigation.links }}
-                <li><a href="{{ .url | absURL}}">{{ .name }}</a></li>
+                <li><a href="{{ .url }}">{{ .name }}</a></li>
             {{ end }}
 
         </ul>
@@ -19,7 +19,7 @@
                 <li><a href="{{ .url | absURL}}" class="button special fit">{{ .name }}</a></li>
             {{ end }}
             {{ range .Site.Params.Navigation.button2 }}
-                <li><a href="{{ .url | absURL}}" class="button fit">{{ .name }}</a></li>
+                <li><a href="{{ .url }}" class="button fit">{{ .name }}</a></li>
             {{ end }}
         </ul>
     </nav>

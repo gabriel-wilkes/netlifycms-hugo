@@ -4,6 +4,8 @@ languageCode = "en-us"
 title = "Azul Technology"
 # theme = "forty"
 
+hardLineBreak = true
+
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
@@ -42,19 +44,19 @@ googleAnalytics = ""
 
     [[params.navigation.links]]
       name = "Home"
-      url = "#"
+      url = "/"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "About"
+      url = "/index.html#about"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+      name = "Portfolio"
+      url = "/index.html#portfolio"
 
     [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+      name = "Blog"
+      url = "/blog"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -64,23 +66,23 @@ googleAnalytics = ""
     #    url = "UrlOfLink"
 
     # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
+    # [[params.navigation.button1]]
+    #  name = "Get Started"
+    #  url = "blogs"
 
     # Button Style 2
     [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
+      name = "Contact"
+      url = "/index.html#contact"
 
 
   # Banner section
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Web design and e-commerce"
-    subtitle = "Experience you can count on."
-    buttonText = "Contact"
+    title = "Launching websites since 1995"
+    subtitle = "Proven web design and e-commerce, get in touch today"
+    buttonText = "Get Started"
 
 
   # Tiles Section
@@ -89,40 +91,42 @@ googleAnalytics = ""
     # Display your showcases here.
 
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic01.jpg"
+      title = "Gordon Graham"
+      subtitle = "E-commerce site for sunglasses"
+      image = "gordon-graham.jpg"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic02.jpg"
+      title = "Uramuné"
+      subtitle = "Bilingual e-commerce site for silk dresses"
+      image = "uramune.jpg"
       url = "blogs/tempus"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
+      title = "Cedros"
+      subtitle = "Award winning Californian seafood in Tokyo"
+      image = "cedros.jpg"
       url = "blogs/magna"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
+      title = "Cabin"
+      subtitle = "Rustic whiskey and cocktail bar"
+      image = "cabin.jpg"
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
+      title = "Yellow Cab of the Universe"
+      subtitle = "Ebook interactivity using JavaScript"
+      image = "yellowcab.jpg"
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic06.jpg"
+      title = "Maker Toolset"
+      subtitle = "Technology clubs and workshops"
+      image = "makertoolset.jpg"
       url = "blogs/ipsum"
+
+
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -135,14 +139,21 @@ googleAnalytics = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus pharetra.
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+    title = "About"
+    paragraph = """
+    Azul Technology was started in 2007 by Gabriel Wilkes.
+    Azul Technology was primarily focused on IT for small business in the early days.
+    However, those same small businesses also needed websites and Gabriel has been making websites
+    since the early days of the public internet in 1995."""
+
+    paragraph2 = """
+    Over time, due to changing interest and technologies available,
+    web development and e-commerce became the primary focus.
+    If you would like to learn more please visit my blog or use the social links at the bottom of the page.
+    Thanks for stopping by!"""
+
+    buttonText = "Blog"
+    url = "blog"
 
 
   # Contact section
@@ -173,45 +184,42 @@ googleAnalytics = ""
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "(714) 758-5275"
+    phone = "+1 (714) 758-5275 (US)"
+    phone2 = "+81 (80) 3729-2966 (Japan)"
 
     [[params.contact.address]]
     title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    street = "1-2-19 Hakoda"
+    city = "Kumagaya, Saitama 360-0014"
+    country = "Japan"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "Azul Technology"
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      url= "https://www.twitter.com"
+      url= "https://twitter.com/gabriel_wilkes"
       label = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      url= "https://www.facebook.com"
+      url= "https://www.facebook.com/gabrielwilkes"
       label = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      url= "https://www.instagram.com"
+      url= "https://www.instagram.com/gwilkes/"
       label = "Instagram"
 
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://github.com/gabriel-wilkes"
       label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://www.linkedin.com/in/gabrielwilkes/"
       label = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
