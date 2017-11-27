@@ -1,13 +1,10 @@
 ---
-title: "Ipsum"
-description: "asdf"
-slug: "ipsum"
+title: Ipsum
+date: 2017-11-27T00:00:00.000Z
+description: asdf 2
+slug: ipsum
 image: pic10.jpg
-keywords: ""
-categories:
-    - ""
-    - ""
-date: 2017-11-27
+keywords: ''
 draft: false
 ---
 
