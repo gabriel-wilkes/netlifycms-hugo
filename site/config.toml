@@ -2,9 +2,6 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Azul Technology"
-# theme = "forty"
-
-hardLineBreak = true
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -52,11 +49,12 @@ googleAnalytics = ""
 
     [[params.navigation.links]]
       name = "Portfolio"
-      url = "/index.html#portfolio"
+      url = "/portfolio"
 
     [[params.navigation.links]]
       name = "Blog"
-      url = "/blog"
+      #url = "/blog"
+      url = "https://medium.com/@gabriel_wilkes"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -94,37 +92,37 @@ googleAnalytics = ""
       title = "Gordon Graham"
       subtitle = "E-commerce site for sunglasses"
       image = "gordon-graham.jpg"
-      url = "blogs/aliquam"
+      url = "portfolio/gordon-graham"
 
     [[params.tiles.showcase]]
       title = "Uramuné"
       subtitle = "Bilingual e-commerce site for silk dresses"
       image = "uramune.jpg"
-      url = "blogs/tempus"
+      url = "portfolio/uramune"
 
     [[params.tiles.showcase]]
       title = "Cedros"
       subtitle = "Award winning Californian seafood in Tokyo"
       image = "cedros.jpg"
-      url = "blogs/magna"
+      url = "portfolio/cedros"
 
     [[params.tiles.showcase]]
       title = "Cabin"
       subtitle = "Rustic whiskey and cocktail bar"
       image = "cabin.jpg"
-      url = "blogs/ipsum"
+      url = "portfolio/cabin"
 
     [[params.tiles.showcase]]
       title = "Yellow Cab of the Universe"
       subtitle = "Ebook interactivity using JavaScript"
       image = "yellowcab.jpg"
-      url = "blogs/ipsum"
+      url = "portfolio/yellow-cab"
 
     [[params.tiles.showcase]]
       title = "Maker Toolset"
       subtitle = "Technology clubs and workshops"
       image = "makertoolset.jpg"
-      url = "blogs/ipsum"
+      url = "portfolio/maker-toolset"
 
 
     # You can make more showcases by copy and pasting the code above
@@ -135,6 +133,8 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     # To add more blogs just copy and paste the code.
+
+  [params.portfolio]
 
   # Section Type Two
   [params.two]
@@ -149,11 +149,12 @@ googleAnalytics = ""
     paragraph2 = """
     Over time, due to changing interest and technologies available,
     web development and e-commerce became the primary focus.
-    If you would like to learn more please visit my blog or use the social links at the bottom of the page.
+    If you would like to learn more please contact me or visit the social links at the bottom of the page.
     Thanks for stopping by!"""
 
     buttonText = "Blog"
-    url = "blog"
+    #url = "blog"
+    url = "https://medium.com/@gabriel_wilkes"
 
 
   # Contact section

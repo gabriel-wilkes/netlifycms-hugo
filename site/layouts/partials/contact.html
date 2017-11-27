@@ -2,7 +2,10 @@
     <section id="contact">
         <div class="inner">
             <section>
-                <form method="post" action="https://formspree.io/{{ .Site.Params.Contact.formEmail }}">
+                <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
+                    <p style="display:none">
+                        <label>Don’t fill this out: <input name="bot-field"></label>
+                    </p>
                     <div class="field half first">
                         <label for="name">Name</label>
                         <input type="text" name="name" id="name" />
@@ -16,8 +19,7 @@
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul class="actions">
-                        <li><input type="submit" value="{{ .Site.Params.Contact.buttonSend }}" class="special" /></li>
-                        <li><input type="reset" value="{{ .Site.Params.Contact.buttonClear }}" /></li>
+                        <li><input type="submit"/></li>
                     </ul>
                 </form>
             </section>
