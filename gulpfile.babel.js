@@ -24,7 +24,7 @@ const defaultArgs = ["-d", "../dist", "-s", "site"];
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
 gulp.task("hugo-verbose", (cb) => buildSite(cb, ["-v"]));
-gulp.task("build", ["compress_jpg"]);
+gulp.task("build", ["critical"]);
 gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
 
 gulp.task("css", () => (
@@ -96,7 +96,7 @@ gulp.task("critical", ["hugo", "css", "cms-assets", "js", "svg"], () => {
     });
 });
 
-gulp.task("server", ["compress_jpg"], () => {
+gulp.task("server", ["critical"], () => {
 
   browserSync.init({
     server: {
