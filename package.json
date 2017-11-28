@@ -7,7 +7,6 @@
     "hugo": "gulp hugo",
     "webpack": "gulp webpack",
     "build": "gulp build",
-    "postbuild": "gulp critical",
     "build-preview": "gulp build-preview",
     "start": "gulp server",
     "lint": "eslint src"
