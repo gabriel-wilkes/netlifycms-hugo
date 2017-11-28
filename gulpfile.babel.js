@@ -19,6 +19,7 @@ const defaultArgs = ["-d", "../dist", "-s", "site"];
 
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
+gulp.task("hugo-verbose", (cb) => buildSite(cb, ["-v"]));
 gulp.task("build", ["css", "js", "cms-assets", "hugo"]);
 gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
 

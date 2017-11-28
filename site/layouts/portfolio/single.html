@@ -18,8 +18,11 @@
                             <header class="major">
                                 <h1>{{ .Title}}</h1>
                             </header>
-                            <span class="image main"><a href="{{ .Params.externalurl }}"><img src="{{ .Site.Params.baseURL }}/img/blog/{{ .Params.image }}" alt="" /></a></span>
+                            <span class="image main"><a href="{{ .Params.externalurl }}"><img src="{{ .Site.Params.baseURL }}/img/portfolio/{{ .Params.image }}" alt="" /></a></span>
                             {{ .Content }}
+                            <ul class="actions">
+                                    <li><a href="/portfolio" class="button next">Portfolio</a></li>
+                                </ul>
                         </div>
                     </section>
             </div>
