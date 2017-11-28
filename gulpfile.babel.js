@@ -89,7 +89,7 @@ gulp.task("critical", ["hugo", "css", "cms-assets", "js", "svg"], () => {
         width: 1280,
         height: 960
       }],
-      dest: 'index.html',
+      dest: 'index-critical.html',
       minify: true,
       extract: false,
       ignore: ['font-face']
