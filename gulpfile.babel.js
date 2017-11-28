@@ -14,6 +14,7 @@ import replace from "gulp-replace";
 import cssnano from "cssnano";
 import critical from "critical";
 import compress_images from "compress-images";
+import cleanCSS from 'gulp-clean-css';
 
 require('events').EventEmitter.defaultMaxListeners = 0;
 const browserSync = BrowserSync.create();
@@ -24,8 +25,20 @@ const defaultArgs = ["-d", "../dist", "-s", "site"];
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
 gulp.task("hugo-verbose", (cb) => buildSite(cb, ["-v"]));
-gulp.task("build", ["critical"]);
+gulp.task("build", ["minify-css"]);
 gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
+
+gulp.task('minify-css', ["critical"], () => {
+  return gulp.src('./dist/css/*.css')
+    .pipe(cleanCSS({
+      level: {
+        2: {
+          all: false, // sets all values to `false`
+          removeDuplicateRules: true // turns on removing duplicate rules
+        }
+      }}))
+    .pipe(gulp.dest('./dist/css'));
+});
 
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
@@ -96,7 +109,7 @@ gulp.task("critical", ["hugo", "css", "cms-assets", "js", "svg"], () => {
     });
 });
 
-gulp.task("server", ["critical"], () => {
+gulp.task("server", ["minify-css"], () => {
 
   browserSync.init({
     server: {
