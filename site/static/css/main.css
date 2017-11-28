@@ -3373,7 +3373,7 @@
 		@media screen and (max-width: 480px) {
 
 			#header .logo span {
-				display: none;
+				visibility: hidden;
 			}
 
 			#header nav a[href="#menu"] {
@@ -3545,10 +3545,10 @@
 		}
 
 		body.is-loading #banner > .inner {
-			-moz-filter: blur(0.125em);
+			/*-moz-filter: blur(0.125em);
 			-webkit-filter: blur(0.125em);
 			-ms-filter: blur(0.125em);
-			filter: blur(0.125em);
+			filter: blur(0.125em);*/
 			-moz-transform: translateX(-0.5em);
 			-webkit-transform: translateX(-0.5em);
 			-ms-transform: translateX(-0.5em);
@@ -3827,7 +3827,7 @@
 		-webkit-pointer-events: none;
 		-ms-pointer-events: none;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgba(36, 41, 67, 0.98);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -3957,14 +3957,14 @@
 	body.is-ie #menu {
 		background: rgba(42, 47, 74, 0.975);
 	}
-
+/*
 	body.is-menu-visible #wrapper {
 		-moz-filter: blur(0.5em);
 		-webkit-filter: blur(0.5em);
 		-ms-filter: blur(0.5em);
 		filter: blur(0.5em);
 	}
-
+*/
 	body.is-menu-visible #menu {
 		-moz-pointer-events: auto;
 		-webkit-pointer-events: auto;

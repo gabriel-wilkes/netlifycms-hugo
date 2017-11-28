@@ -25,7 +25,7 @@ const defaultArgs = ["-d", "../dist", "-s", "site"];
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
 gulp.task("hugo-verbose", (cb) => buildSite(cb, ["-v"]));
-gulp.task("build", ["minify-css"]);
+gulp.task("build", ["hugo", "css", "cms-assets", "js", "svg"]);
 gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
 
 gulp.task('minify-css', ["critical"], () => {
@@ -33,11 +33,11 @@ gulp.task('minify-css', ["critical"], () => {
     .pipe(cleanCSS({
       level: {
         2: {
-          all: false, // sets all values to `false`
+          all: true, // sets all values to `false`
           removeDuplicateRules: true // turns on removing duplicate rules
         }
       }}))
-    .pipe(gulp.dest('./dist/css'));
+    .pipe(gulp.dest('./dist/min/css'));
 });
 
 gulp.task("css", () => (
@@ -109,7 +109,7 @@ gulp.task("critical", ["hugo", "css", "cms-assets", "js", "svg"], () => {
     });
 });
 
-gulp.task("server", ["minify-css"], () => {
+gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
 
   browserSync.init({
     server: {
