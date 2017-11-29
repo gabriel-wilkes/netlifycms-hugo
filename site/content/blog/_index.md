@@ -1,8 +1,8 @@
 ---
-title: Gabriel's thoughts
-date: 2017-11-01 03:27:21 Z
-slug: blog
+title: "Gabriel's thoughts"
+slug: "blog"
 image: clouds.jpg
+date: 2017-10-31T22:27:21-05:00
 draft: false
 ---
 
