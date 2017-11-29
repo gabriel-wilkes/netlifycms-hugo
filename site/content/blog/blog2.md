@@ -1,13 +1,13 @@
 ---
-title: "Magna"
-description: "Lorem Etiam Nullam"
-slug: "magna"
+title: Magna
+date: 2017-11-01 03:26:09 Z
+description: Lorem Etiam Nullam
+slug: magna
 image: pic09.jpg
-keywords: ""
+keywords: ''
 categories:
-    - ""
-    - ""
-date: 2017-10-31T22:26:09-05:00
+- ''
+- ''
 draft: true
 ---
 
