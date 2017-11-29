@@ -1,6 +1,6 @@
 ---
 title: Ipsum
-date: 2017-11-27T00:00:00.000Z
+date: 2017-11-27 00:00:00 Z
 description: asdf 2
 slug: ipsum
 image: pic10.jpg
