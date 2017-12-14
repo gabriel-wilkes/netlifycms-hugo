@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://azul.technology/"
 googleAnalytics = "UA-33330753-1"
 languageCode = "en-us"
 pluralizeListTitles = false
