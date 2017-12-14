@@ -1,140 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Azul Technology</title>
-    <link>/categories/</link>
-    <description>Recent content on Azul Technology</description>
+    <title>Categories on Azul Technology</title>
+    <link>https://azul.technology/categories/</link>
+    <description>Recent content in Categories on Azul Technology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Nov 2017 22:26:09 -0505</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://azul.technology/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Maker Toolset</title>
-      <link>/portfolio/maker-toolset/</link>
+      <title></title>
+      <link>https://azul.technology/categories/</link>
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0505</pubDate>
       
-      <guid>/portfolio/maker-toolset/</guid>
-      <description>Squarespace site</description>
-    </item>
-    
-    <item>
-      <title>Maker Toolset</title>
-      <link>/portfolio/maker-toolset/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0505</pubDate>
-      
-      <guid>/portfolio/maker-toolset/</guid>
-      <description>Squarespace site</description>
-    </item>
-    
-    <item>
-      <title>Yellow Cab of the Universe</title>
-      <link>/portfolio/yellow-cab/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0504</pubDate>
-      
-      <guid>/portfolio/yellow-cab/</guid>
-      <description>Yellow cab</description>
-    </item>
-    
-    <item>
-      <title>Yellow Cab of the Universe</title>
-      <link>/portfolio/yellow-cab/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0504</pubDate>
-      
-      <guid>/portfolio/yellow-cab/</guid>
-      <description>Yellow cab</description>
-    </item>
-    
-    <item>
-      <title>Cabin</title>
-      <link>/portfolio/cabin/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0503</pubDate>
-      
-      <guid>/portfolio/cabin/</guid>
-      <description>Squarespace site</description>
-    </item>
-    
-    <item>
-      <title>Cabin</title>
-      <link>/portfolio/cabin/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0503</pubDate>
-      
-      <guid>/portfolio/cabin/</guid>
-      <description>Squarespace site</description>
-    </item>
-    
-    <item>
-      <title>Cedros</title>
-      <link>/portfolio/cedros/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0502</pubDate>
-      
-      <guid>/portfolio/cedros/</guid>
-      <description>Squarespace site</description>
-    </item>
-    
-    <item>
-      <title>Cedros</title>
-      <link>/portfolio/cedros/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0502</pubDate>
-      
-      <guid>/portfolio/cedros/</guid>
-      <description>Squarespace site</description>
-    </item>
-    
-    <item>
-      <title>Uramuné</title>
-      <link>/portfolio/uramune/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0501</pubDate>
-      
-      <guid>/portfolio/uramune/</guid>
-      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
-    </item>
-    
-    <item>
-      <title>Uramuné</title>
-      <link>/portfolio/uramune/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0501</pubDate>
-      
-      <guid>/portfolio/uramune/</guid>
-      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
-    </item>
-    
-    <item>
-      <title>Gordon Graham</title>
-      <link>/portfolio/gordon-graham/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0500</pubDate>
-      
-      <guid>/portfolio/gordon-graham/</guid>
-      <description>Squarespace site</description>
-    </item>
-    
-    <item>
-      <title>Gordon Graham</title>
-      <link>/portfolio/gordon-graham/</link>
-      <pubDate>Mon, 27 Nov 2017 22:26:09 -0500</pubDate>
-      
-      <guid>/portfolio/gordon-graham/</guid>
-      <description>Squarespace site</description>
-    </item>
-    
-    <item>
-      <title>Magna</title>
-      <link>/blog/magna/</link>
-      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
-      
-      <guid>/blog/magna/</guid>
-      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
-    </item>
-    
-    <item>
-      <title>Magna</title>
-      <link>/blog/magna/</link>
-      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
-      
-      <guid>/blog/magna/</guid>
-      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
+      <guid>https://azul.technology/categories/</guid>
+      <description></description>
     </item>
     
   </channel>

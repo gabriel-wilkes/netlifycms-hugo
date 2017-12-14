@@ -2,67 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Azul Technology</title>
-    <link>/portfolio/</link>
+    <link>https://azul.technology/portfolio/</link>
     <description>Recent content in Portfolio on Azul Technology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Nov 2017 22:27:21 -0500</lastBuildDate>
     
-	<atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://azul.technology/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Maker Toolset</title>
-      <link>/portfolio/maker-toolset/</link>
+      <link>https://azul.technology/portfolio/maker-toolset/</link>
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0505</pubDate>
       
-      <guid>/portfolio/maker-toolset/</guid>
+      <guid>https://azul.technology/portfolio/maker-toolset/</guid>
       <description>Squarespace site</description>
     </item>
     
     <item>
       <title>Yellow Cab of the Universe</title>
-      <link>/portfolio/yellow-cab/</link>
+      <link>https://azul.technology/portfolio/yellow-cab/</link>
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0504</pubDate>
       
-      <guid>/portfolio/yellow-cab/</guid>
+      <guid>https://azul.technology/portfolio/yellow-cab/</guid>
       <description>Yellow cab</description>
     </item>
     
     <item>
       <title>Cabin</title>
-      <link>/portfolio/cabin/</link>
+      <link>https://azul.technology/portfolio/cabin/</link>
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0503</pubDate>
       
-      <guid>/portfolio/cabin/</guid>
+      <guid>https://azul.technology/portfolio/cabin/</guid>
       <description>Squarespace site</description>
     </item>
     
     <item>
       <title>Cedros</title>
-      <link>/portfolio/cedros/</link>
+      <link>https://azul.technology/portfolio/cedros/</link>
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0502</pubDate>
       
-      <guid>/portfolio/cedros/</guid>
+      <guid>https://azul.technology/portfolio/cedros/</guid>
       <description>Squarespace site</description>
     </item>
     
     <item>
       <title>Uramuné</title>
-      <link>/portfolio/uramune/</link>
+      <link>https://azul.technology/portfolio/uramune/</link>
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0501</pubDate>
       
-      <guid>/portfolio/uramune/</guid>
-      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
+      <guid>https://azul.technology/portfolio/uramune/</guid>
+      <description>This site was built using Squarespace, Ecwid, Stripe and some custom HTML, CSS, JavaScript and jQuery . Squarespace with a heavy design focus and ease of use was a perfect fit for a fashion site. However, Squarespace doesn&amp;rsquo;t support Japanese yen with their ecommerce functionality.
+Ecwid is an ecommerce platform that can be added to any site and it supports Japanese yen and Japanese language checkout. Ecwid works with Stripe to process payments.</description>
     </item>
     
     <item>
       <title>Gordon Graham</title>
-      <link>/portfolio/gordon-graham/</link>
+      <link>https://azul.technology/portfolio/gordon-graham/</link>
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0500</pubDate>
       
-      <guid>/portfolio/gordon-graham/</guid>
-      <description>Squarespace site</description>
+      <guid>https://azul.technology/portfolio/gordon-graham/</guid>
+      <description>This site was built using Squarespace, Stripe and some custom HTML, CSS and JavaScript. Although the sunglasses are made in and shipped from Japan the site was designed for a more international audience. The language is only in English and the pricing is in US dollars.
+Squarespace&amp;rsquo;s built-in ecommerce platform is used along with it&amp;rsquo;s integration with Stripe making the ecommerce setup very straightforward. Some custom code was added to add a few special features requested by the site owners including a zoom in on products when hovering over them and color selectors to choose various sunglass colors.</description>
     </item>
     
   </channel>
