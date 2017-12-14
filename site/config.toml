@@ -1,227 +1,116 @@
-# Site settings
 baseURL = "/"
-languageCode = "en-us"
-title = "Azul Technology"
-pluralizeListTitles= false
-
-# Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
-
+languageCode = "en-us"
+pluralizeListTitles = false
+title = "Azul Technology"
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source)
-  # To create multi-line text in strings use the """example Text""" format
-  #
-  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # Provide your metadata here.
-  name = "Gabriel Wilkes"
-  description = "Azul Technology"
-
-  # Link custom assets relative to /static
-  custom_css = []
-  custom_js  = []
-  favicon    = "favicon.ico"
-
-  # Just a custom image variable, please define it in .md files for content.
-  image = ""
-
-  # 404 error customization
-  [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
-
-  # Navigation Section
-  [params.navigation]
-    title = "Azul Technology"
-    subtitle = "By Gabriel Wilkes"
-    menu = "Menu"
-    # Optional logo as brand stored in img/
-    # logo = "logo.png"
-
-    [[params.navigation.links]]
-      name = "Home"
-      url = "/"
-
-    [[params.navigation.links]]
-      name = "About"
-      url = "/index.html#about"
-
-    [[params.navigation.links]]
-      name = "Portfolio"
-      url = "/portfolio"
-
-    [[params.navigation.links]]
-      name = "Blog"
-      #url = "/blog"
-      url = "https://medium.com/@gabriel_wilkes"
-
-    # Add custom links here by uncommenting code below. To remove links just delete
-    # the [[params.navigation.links]] map associated with that link. Copy and paste
-    # code below if you need more links. Buttons work in the same way.
-    # [[params.navigation.links]]
-    #    name = "NameOfLink"
-    #    url = "UrlOfLink"
-
-    # Button Style 1
-    # [[params.navigation.button1]]
-    #  name = "Get Started"
-    #  url = "blogs"
-
-    # Button Style 2
-    [[params.navigation.button2]]
-      name = "Contact"
-      url = "/index.html#contact"
-
-
-  # Banner section
-  [params.banner]
-    # To change the background image on the homepage banner, replace 'banner.jpg' in
-    # the 'static/img' folder.
-    title = "Launching websites since 1995"
-    subtitle = "Proven web design and e-commerce, get in touch today"
-    buttonText = "Get Started"
-
-
-  # Tiles Section
-  [params.tiles]
-    enable = true
-    # Display your showcases here.
-
-    [[params.tiles.showcase]]
-      title = "Gordon Graham"
-      subtitle = "E-commerce site for sunglasses"
-      image = "gordon-graham.jpg"
-      url = "portfolio/gordon-graham"
-
-    [[params.tiles.showcase]]
-      title = "Uramuné"
-      subtitle = "Bilingual e-commerce site for silk dresses"
-      image = "uramune.jpg"
-      url = "portfolio/uramune"
-
-    [[params.tiles.showcase]]
-      title = "Cedros"
-      subtitle = "Award winning Californian seafood in Tokyo"
-      image = "cedros.jpg"
-      url = "portfolio/cedros"
-
-    [[params.tiles.showcase]]
-      title = "Cabin"
-      subtitle = "Rustic whiskey and cocktail bar"
-      image = "cabin.jpg"
-      url = "portfolio/cabin"
-
-    [[params.tiles.showcase]]
-      title = "Yellow Cab of the Universe"
-      subtitle = "Ebook interactivity using JavaScript"
-      image = "yellowcab.jpg"
-      url = "portfolio/yellow-cab"
-
-    [[params.tiles.showcase]]
-      title = "Maker Toolset"
-      subtitle = "Technology clubs and workshops"
-      image = "makertoolset.jpg"
-      url = "portfolio/maker-toolset"
-
-
-    # You can make more showcases by copy and pasting the code above
-
-  [params.blog]
-    # All blogs defined in their own files. You can find example blogs
-    # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    # To add more blogs just copy and paste the code.
-
-  [params.portfolio]
-
-  # Section Type Two
-  [params.two]
-    enable = true
-    title = "About"
-    paragraph = """
-    Azul Technology was started in 2007 by Gabriel Wilkes.
-    Azul Technology was primarily focused on IT for small business in the early days.
-    However, those same small businesses also needed websites and Gabriel has been making websites
-    since the early days of the public internet in 1995."""
-
-    paragraph2 = """
-    Over time, due to changing interest and technologies available,
-    web development and e-commerce became the primary focus.
-    If you would like to learn more please contact me or visit the social links at the bottom of the page.
-    Thanks for stopping by!"""
-
-    buttonText = "Blog"
-    #url = "blog"
-    url = "https://medium.com/@gabriel_wilkes"
-
-
-  # Contact section
-  [params.contact]
-    enable = true
-    buttonSend = "Send message"
-    buttonClear = "Clear"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below and uncomment
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    # formEmail = "example@domain.com"
-
-    # Contact Section
-    # You can add multiple emails, phone numbers, or addresses
-    # by copying the corresponding map with frontmatter code.
-    [[params.contact.email]]
-    title = "Email"
-    email = "gabriel@azultech.com"
-
-    [[params.contact.phone]]
-    title = "Phone"
-    phone = "+1 (714) 758-5275 (US)"
-    phone2 = "+81 (80) 3729-2966 (Japan)"
-
-    [[params.contact.address]]
-    title = "Address"
-    street = "1-2-19 Hakoda"
-    city = "Kumagaya, Saitama 360-0014"
-    country = "Japan"
-
-  # Footer section
-  [params.footer]
-    enable = true
-    copyright = "Azul Technology"
-
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://twitter.com/gabriel_wilkes"
-      label = "Twitter"
-
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      url= "https://www.facebook.com/gabrielwilkes"
-      label = "Facebook"
-
-    [[params.footer.social]]
-      icon = "fa-instagram"
-      url= "https://www.instagram.com/gwilkes/"
-      label = "Instagram"
-
-    [[params.footer.social]]
-      icon = "fa-github"
-      url= "https://github.com/gabriel-wilkes"
-      label = "GitHub"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      url= "https://www.linkedin.com/in/gabrielwilkes/"
-      label = "LinkedIn"
-
+custom_css = []
+custom_js = []
+description = "Azul Technology"
+favicon = "favicon.ico"
+image = ""
+name = "Gabriel Wilkes"
+[params.banner]
+buttontext = "Get Started"
+subtitle = "Proven web design and e-commerce, get in touch today"
+title = "Launching websites since 2007"
+[params.contact]
+buttonclear = "Clear"
+buttonsend = "Send message"
+enable = true
+[[params.contact.address]]
+city = "Kumagaya, Saitama 360-0014"
+country = "Japan"
+street = "0001-02-19T00:00:00+00:00"
+title = "Address"
+[[params.contact.email]]
+email = "gabriel@azultech.com"
+title = "Email"
+[[params.contact.phone]]
+phone = "+1 (714) 758-5275 (US)"
+phone2 = "+81 (80) 3729-2966 (Japan)"
+title = "Phone"
+[params.error404]
+heading = "Page couldn't be found"
+text = "Please visit [this page](/)"
+[params.footer]
+copyright = "Azul Technology"
+enable = true
+[[params.footer.social]]
+icon = "fa-twitter"
+label = "Twitter"
+url = "https://twitter.com/gabriel_wilkes"
+[[params.footer.social]]
+icon = "fa-facebook"
+label = "Facebook"
+url = "https://www.facebook.com/gabrielwilkes"
+[[params.footer.social]]
+icon = "fa-instagram"
+label = "Instagram"
+url = "https://www.instagram.com/gwilkes/"
+[[params.footer.social]]
+icon = "fa-github"
+label = "GitHub"
+url = "https://github.com/gabriel-wilkes"
+[[params.footer.social]]
+icon = "fa-linkedin"
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/gabrielwilkes/"
+[params.navigation]
+menu = "Menu"
+subtitle = "By Gabriel Wilkes"
+title = "Azul Technology"
+[[params.navigation.button2]]
+name = "Contact"
+url = "/index.html#contact"
+[[params.navigation.links]]
+name = "Home"
+url = "/"
+[[params.navigation.links]]
+name = "About"
+url = "/index.html#about"
+[[params.navigation.links]]
+name = "Portfolio"
+url = "/portfolio"
+[[params.navigation.links]]
+name = "Blog"
+url = "https://medium.com/@gabriel_wilkes"
+[params.tiles]
+enable = true
+[[params.tiles.showcase]]
+image = "gordon-graham.jpg"
+subtitle = "E-commerce site for sunglasses"
+title = "Gordon Graham"
+url = "portfolio/gordon-graham"
+[[params.tiles.showcase]]
+image = "uramune.jpg"
+subtitle = "Bilingual e-commerce site for silk dresses"
+title = "Uramuné"
+url = "portfolio/uramune"
+[[params.tiles.showcase]]
+image = "cedros.jpg"
+subtitle = "Award winning Californian seafood in Tokyo"
+title = "Cedros"
+url = "portfolio/cedros"
+[[params.tiles.showcase]]
+image = "cabin.jpg"
+subtitle = "Rustic whiskey and cocktail bar"
+title = "Cabin"
+url = "portfolio/cabin"
+[[params.tiles.showcase]]
+image = "yellowcab.jpg"
+subtitle = "Ebook interactivity using JavaScript"
+title = "Yellow Cab of the Universe"
+url = "portfolio/yellow-cab"
+[[params.tiles.showcase]]
+image = "makertoolset.jpg"
+subtitle = "Technology clubs and workshops"
+title = "Maker Toolset"
+url = "portfolio/maker-toolset"
+[params.two]
+buttontext = "Blog"
+enable = true
+paragraph = "    Azul Technology was started in 2007 by Gabriel Wilkes.\n    In the beginning Azul Technology was primarily focused on IT for small business.\n    However, those same small businesses also needed websites and Gabriel has been making websites since 1995."
+paragraph2 = "    Over time, due to changing interest and technologies available,\n    web development and e-commerce became the primary focus.\n    If you would like to learn more please contact me or visit the social links at the bottom of the page.\n    Thanks for stopping by!"
+title = "About"
+url = "https://medium.com/@gabriel_wilkes"
