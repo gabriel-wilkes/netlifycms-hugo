@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Azul Technology</title>
+    <title>Azul Technology</title>
     <link>https://azul.technology/categories/</link>
-    <description>Recent content in Categories on Azul Technology</description>
+    <description>Recent content on Azul Technology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Nov 2017 22:26:09 -0505</lastBuildDate>
@@ -12,12 +12,141 @@
     
     
     <item>
-      <title></title>
-      <link>https://azul.technology/categories/</link>
+      <title>Maker Toolset</title>
+      <link>https://azul.technology/portfolio/maker-toolset/</link>
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0505</pubDate>
       
-      <guid>https://azul.technology/categories/</guid>
-      <description></description>
+      <guid>https://azul.technology/portfolio/maker-toolset/</guid>
+      <description>Maker Toolset creates and runs bilingual technology clubs and workshops in the Tokyo area. Gabriel Wilkes not only created the website for Maker Toolset but is also a founding member and helped to develop and teach many Maker Toolset programs.
+Some examples of programs run were after-school clubs and workshops to teach programing using robotics and Minecraft. The website itself was built by Azul Technology using Wordpress. WooCommerce and Paypal were used to create the signup up pages, checkout and payments for the workshops and clubs.</description>
+    </item>
+    
+    <item>
+      <title>Maker Toolset</title>
+      <link>https://azul.technology/portfolio/maker-toolset/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0505</pubDate>
+      
+      <guid>https://azul.technology/portfolio/maker-toolset/</guid>
+      <description>Maker Toolset creates and runs bilingual technology clubs and workshops in the Tokyo area. Gabriel Wilkes not only created the website for Maker Toolset but is also a founding member and helped to develop and teach many Maker Toolset programs.
+Some examples of programs run were after-school clubs and workshops to teach programing using robotics and Minecraft. The website itself was built by Azul Technology using Wordpress. WooCommerce and Paypal were used to create the signup up pages, checkout and payments for the workshops and clubs.</description>
+    </item>
+    
+    <item>
+      <title>Yellow Cab of the Universe</title>
+      <link>https://azul.technology/portfolio/yellow-cab/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0504</pubDate>
+      
+      <guid>https://azul.technology/portfolio/yellow-cab/</guid>
+      <description>This project is a little bit different in that it isn&amp;rsquo;t a website but it uses web technologies. It is an interactive ebook about astronomy. Azul Technology did not develop the book content but it was brought in to add some additonal interactivity that was only possible using code.
+Specifically Gabriel Wilkes coded an interactive feature where you could look around a martian surface by moving an iPad. Also, interactive quizzes at the end of each chapter were coded using HTML, CSS and JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>Yellow Cab of the Universe</title>
+      <link>https://azul.technology/portfolio/yellow-cab/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0504</pubDate>
+      
+      <guid>https://azul.technology/portfolio/yellow-cab/</guid>
+      <description>This project is a little bit different in that it isn&amp;rsquo;t a website but it uses web technologies. It is an interactive ebook about astronomy. Azul Technology did not develop the book content but it was brought in to add some additonal interactivity that was only possible using code.
+Specifically Gabriel Wilkes coded an interactive feature where you could look around a martian surface by moving an iPad. Also, interactive quizzes at the end of each chapter were coded using HTML, CSS and JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>Cabin</title>
+      <link>https://azul.technology/portfolio/cabin/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0503</pubDate>
+      
+      <guid>https://azul.technology/portfolio/cabin/</guid>
+      <description>Cabin is a whisky and cocktail bar in Tokyo. It&amp;rsquo;s a fairly simple site mostly built with Squarespace but Gabriel really liked the design which is why he included it in the Azul Technology portfolio.
+It includes some custom code to add Opentable reservations. Squarespace actually includes an Opentable widget to make they very simple in most cases, however this doesn&amp;rsquo;t work with the Japanese version of Opentable which is why the code was needed.</description>
+    </item>
+    
+    <item>
+      <title>Cabin</title>
+      <link>https://azul.technology/portfolio/cabin/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0503</pubDate>
+      
+      <guid>https://azul.technology/portfolio/cabin/</guid>
+      <description>Cabin is a whisky and cocktail bar in Tokyo. It&amp;rsquo;s a fairly simple site mostly built with Squarespace but Gabriel really liked the design which is why he included it in the Azul Technology portfolio.
+It includes some custom code to add Opentable reservations. Squarespace actually includes an Opentable widget to make they very simple in most cases, however this doesn&amp;rsquo;t work with the Japanese version of Opentable which is why the code was needed.</description>
+    </item>
+    
+    <item>
+      <title>Cedros</title>
+      <link>https://azul.technology/portfolio/cedros/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0502</pubDate>
+      
+      <guid>https://azul.technology/portfolio/cedros/</guid>
+      <description>Cedros is an award winning Californian seafood restaurant in Tokyo. Design was very important to this client so Squarespace was a natural fit. The first version of the site that Azul Technology created for them was a multi-page site. However, a year later they decided to redo the site in a mostly single page scrolling version.
+Some custom HTML, CSS and Javascript were necessary for a few design tweaks and functionality that Cedros needed.</description>
+    </item>
+    
+    <item>
+      <title>Cedros</title>
+      <link>https://azul.technology/portfolio/cedros/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0502</pubDate>
+      
+      <guid>https://azul.technology/portfolio/cedros/</guid>
+      <description>Cedros is an award winning Californian seafood restaurant in Tokyo. Design was very important to this client so Squarespace was a natural fit. The first version of the site that Azul Technology created for them was a multi-page site. However, a year later they decided to redo the site in a mostly single page scrolling version.
+Some custom HTML, CSS and Javascript were necessary for a few design tweaks and functionality that Cedros needed.</description>
+    </item>
+    
+    <item>
+      <title>Uramuné</title>
+      <link>https://azul.technology/portfolio/uramune/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0501</pubDate>
+      
+      <guid>https://azul.technology/portfolio/uramune/</guid>
+      <description>This site was built using Squarespace, Ecwid, Stripe and some custom HTML, CSS, JavaScript and jQuery . Squarespace with a heavy design focus and ease of use was a perfect fit for a fashion site. However, Squarespace doesn&amp;rsquo;t support Japanese yen with their ecommerce functionality.
+Ecwid is an ecommerce platform that can be added to any site and it supports Japanese yen and Japanese language checkout. Ecwid works with Stripe to process payments.</description>
+    </item>
+    
+    <item>
+      <title>Uramuné</title>
+      <link>https://azul.technology/portfolio/uramune/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0501</pubDate>
+      
+      <guid>https://azul.technology/portfolio/uramune/</guid>
+      <description>This site was built using Squarespace, Ecwid, Stripe and some custom HTML, CSS, JavaScript and jQuery . Squarespace with a heavy design focus and ease of use was a perfect fit for a fashion site. However, Squarespace doesn&amp;rsquo;t support Japanese yen with their ecommerce functionality.
+Ecwid is an ecommerce platform that can be added to any site and it supports Japanese yen and Japanese language checkout. Ecwid works with Stripe to process payments.</description>
+    </item>
+    
+    <item>
+      <title>Gordon Graham</title>
+      <link>https://azul.technology/portfolio/gordon-graham/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0500</pubDate>
+      
+      <guid>https://azul.technology/portfolio/gordon-graham/</guid>
+      <description>This site was built using Squarespace, Stripe and some custom HTML, CSS and JavaScript. Although the sunglasses are made in and shipped from Japan the site was designed for a more international audience. The language is only in English and the pricing is in US dollars.
+Squarespace&amp;rsquo;s built-in ecommerce platform is used along with it&amp;rsquo;s integration with Stripe making the ecommerce setup very straightforward. Some custom code was added to add a few special features requested by the site owners including a zoom in on products when hovering over them and color selectors to choose various sunglass colors.</description>
+    </item>
+    
+    <item>
+      <title>Gordon Graham</title>
+      <link>https://azul.technology/portfolio/gordon-graham/</link>
+      <pubDate>Mon, 27 Nov 2017 22:26:09 -0500</pubDate>
+      
+      <guid>https://azul.technology/portfolio/gordon-graham/</guid>
+      <description>This site was built using Squarespace, Stripe and some custom HTML, CSS and JavaScript. Although the sunglasses are made in and shipped from Japan the site was designed for a more international audience. The language is only in English and the pricing is in US dollars.
+Squarespace&amp;rsquo;s built-in ecommerce platform is used along with it&amp;rsquo;s integration with Stripe making the ecommerce setup very straightforward. Some custom code was added to add a few special features requested by the site owners including a zoom in on products when hovering over them and color selectors to choose various sunglass colors.</description>
+    </item>
+    
+    <item>
+      <title>Magna</title>
+      <link>https://azul.technology/blog/magna/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
+      
+      <guid>https://azul.technology/blog/magna/</guid>
+      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
+    </item>
+    
+    <item>
+      <title>Magna</title>
+      <link>https://azul.technology/blog/magna/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
+      
+      <guid>https://azul.technology/blog/magna/</guid>
+      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
     </item>
     
   </channel>

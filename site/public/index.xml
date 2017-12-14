@@ -17,7 +17,8 @@
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0505</pubDate>
       
       <guid>https://azul.technology/portfolio/maker-toolset/</guid>
-      <description>Squarespace site</description>
+      <description>Maker Toolset creates and runs bilingual technology clubs and workshops in the Tokyo area. Gabriel Wilkes not only created the website for Maker Toolset but is also a founding member and helped to develop and teach many Maker Toolset programs.
+Some examples of programs run were after-school clubs and workshops to teach programing using robotics and Minecraft. The website itself was built by Azul Technology using Wordpress. WooCommerce and Paypal were used to create the signup up pages, checkout and payments for the workshops and clubs.</description>
     </item>
     
     <item>
@@ -26,7 +27,8 @@
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0504</pubDate>
       
       <guid>https://azul.technology/portfolio/yellow-cab/</guid>
-      <description>Yellow cab</description>
+      <description>This project is a little bit different in that it isn&amp;rsquo;t a website but it uses web technologies. It is an interactive ebook about astronomy. Azul Technology did not develop the book content but it was brought in to add some additonal interactivity that was only possible using code.
+Specifically Gabriel Wilkes coded an interactive feature where you could look around a martian surface by moving an iPad. Also, interactive quizzes at the end of each chapter were coded using HTML, CSS and JavaScript.</description>
     </item>
     
     <item>
@@ -35,7 +37,8 @@
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0503</pubDate>
       
       <guid>https://azul.technology/portfolio/cabin/</guid>
-      <description>Squarespace site</description>
+      <description>Cabin is a whisky and cocktail bar in Tokyo. It&amp;rsquo;s a fairly simple site mostly built with Squarespace but Gabriel really liked the design which is why he included it in the Azul Technology portfolio.
+It includes some custom code to add Opentable reservations. Squarespace actually includes an Opentable widget to make they very simple in most cases, however this doesn&amp;rsquo;t work with the Japanese version of Opentable which is why the code was needed.</description>
     </item>
     
     <item>
@@ -44,7 +47,8 @@
       <pubDate>Mon, 27 Nov 2017 22:26:09 -0502</pubDate>
       
       <guid>https://azul.technology/portfolio/cedros/</guid>
-      <description>Squarespace site</description>
+      <description>Cedros is an award winning Californian seafood restaurant in Tokyo. Design was very important to this client so Squarespace was a natural fit. The first version of the site that Azul Technology created for them was a multi-page site. However, a year later they decided to redo the site in a mostly single page scrolling version.
+Some custom HTML, CSS and Javascript were necessary for a few design tweaks and functionality that Cedros needed.</description>
     </item>
     
     <item>
