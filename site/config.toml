@@ -21,7 +21,7 @@ enable = true
 [[params.contact.address]]
 city = "Kumagaya, Saitama 360-0014"
 country = "Japan"
-street = "0001-02-19T00:00:00+00:00"
+street = "1-2-19 Hakoda"
 title = "Address"
 [[params.contact.email]]
 email = "gabriel@azultech.com"
