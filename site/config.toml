@@ -1,5 +1,5 @@
 baseURL = "/"
-googleAnalytics = "33330753"
+googleAnalytics = "UA-33330753-1"
 languageCode = "en-us"
 pluralizeListTitles = false
 title = "Azul Technology"
