@@ -3,6 +3,7 @@ googleAnalytics = "UA-33330753-1"
 languageCode = "en-us"
 pluralizeListTitles = false
 title = "Azul Technology"
+enableEmoji = true
 [params]
 custom_css = []
 custom_js = []
@@ -24,15 +25,16 @@ country = "Japan"
 street = "1-2-19 Hakoda"
 title = "Address"
 [[params.contact.email]]
-email = "[gabriel@azultech.com](mailto:gabriel@azultech.com)"
+email = "gabriel@azultech.com"
+email_url = "mailto:gabriel@azultech.com?Subject=Hello%20Gabriel"
 title = "Email"
 [[params.contact.phone]]
 phone = "+1 (714) 758-5275 (US)"
 phone2 = "+81 (80) 3729-2966 (Japan)"
 title = "Phone"
 [params.error404]
-heading = "Page couldn't be found"
-text = "Please visit [this page](/)"
+heading = "404"
+text = "Sorry, page couldn't be found!"
 [params.footer]
 copyright = "Azul Technology"
 enable = true
