@@ -20,11 +20,11 @@
                     </div>
                     <ul class="actions">
                         <li>
-                            <button
-                                class="g-recaptcha"
-                                data-sitekey="6LeVM2AUAAAAAFV4HEX_MH_YOymlVxdY_mLLzTyu">
-                                Submit
-                            </button>
+                            <div id='recaptcha' class="g-recaptcha"
+                            data-sitekey="6LeVM2AUAAAAAFV4HEX_MH_YOymlVxdY_mLLzTyu"
+                            data-callback="onSubmit"
+                            data-size="invisible"></div>
+                            <button id='submit'>Submit</button>
                         </li>
                     </ul>
                 </form>

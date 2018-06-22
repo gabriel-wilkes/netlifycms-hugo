@@ -31,7 +31,26 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 
-	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+			function onSubmit(token) {
+				alert('Thanks ' + document.getElementById('name').value + ', for contacting Azul Technology. Your message has been sent.');
+			}
+
+			function validate(event) {
+				event.preventDefault();
+				if (!document.getElementById('message').value || !document.getElementById('name').value || !document.getElementById('email').value) {
+					alert("You must fill out all the fields");
+				} else {
+					grecaptcha.execute();
+				}
+			}
+
+			function onload() {
+				var element = document.getElementById('submit');
+				element.onclick = validate;
+			}
+		</script>
 
 	{{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
 	{{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
