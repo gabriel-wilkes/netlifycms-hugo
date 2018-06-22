@@ -2,7 +2,7 @@
     <section id="contact">
         <div class="inner">
             <section>
-                <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
+                <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify-recaptcha netlify>
                     <p style="display:none">
                         <label>Don’t fill this out: <input name="bot-field"></label>
                     </p>
@@ -18,9 +18,14 @@
                         <label for="message">Message</label>
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
-                    <div data-netlify-recaptcha></div>
                     <ul class="actions">
-                        <li><input type="submit"/></li>
+                        <li>
+                            <button
+                                class="g-recaptcha"
+                                data-sitekey="6LeVM2AUAAAAAFV4HEX_MH_YOymlVxdY_mLLzTyu">
+                                Submit
+                            </button>
+                        </li>
                     </ul>
                 </form>
             </section>
