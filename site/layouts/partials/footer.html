@@ -11,6 +11,10 @@
                 {{ range .Site.Params.Footer.quicklinks}}
                 <li>{{ .text }} <a href="{{ .url }}">{{ .alt }}</a></li>
                 {{ end }}
+                <li>This site uses Google's Invisible reCAPTCHA:
+                    <a href="https://policies.google.com/privacy" target="_blank">Privacy</a>
+                    <a href="https://policies.google.com/terms" target="_blank">Terms</a>
+                </li>
             </ul>
         </div>
     </footer>
