@@ -1,8 +1,9 @@
 {{ "<!-- Contact -->" | safeHTML}}
+
     <section id="contact">
         <div class="inner">
             <section>
-                <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify-recaptcha netlify>
+                <form name="contact" netlify-honeypot="bot-field" action="thank-you" method="POST" netlify-recaptcha netlify>
                     <p style="display:none">
                         <label>Don’t fill this out: <input name="bot-field"></label>
                     </p>
@@ -20,11 +21,9 @@
                     </div>
                     <ul class="actions">
                         <li>
-                            <div id='recaptcha' class="g-recaptcha"
-                            data-sitekey="6LeVM2AUAAAAAFV4HEX_MH_YOymlVxdY_mLLzTyu"
-                            data-callback="onSubmit"
-                            data-size="invisible"></div>
-                            <button id='submit'>Submit</button>
+                            <button>
+                                Submit
+                            </button>
                         </li>
                     </ul>
                 </form>
@@ -64,4 +63,4 @@
         </div>
     </section>
 
-<script>onload();</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
