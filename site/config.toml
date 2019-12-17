@@ -113,6 +113,6 @@ url = "portfolio/maker-toolset"
 buttontext = "Blog"
 enable = true
 paragraph = "Gabriel Wilkes started Azul Technology in 2007 to provide IT and web development \nservices to small and medium businesses in San Diego, California. In 2010 Gabriel \nmoved to a suburb of Tokyo and began to focus more on web development."
-paragraph2 = "    Over time Azul Technology's specialty became ecommerce. Gabriel has implemented ecommerce sites using 5 different platforms including WooCommerce and Shopify. \n    If you would like to learn more please contact me or visit the social links at the bottom of the page.\n    Thanks for stopping by!"
+paragraph2 = "    Over time Azul Technology's specialties became web apps and e-commerce. Gabriel has implemented web apps using various platforms and technolgies, from the traditional LAMP stack all the way to Vue.js with a serverless AWS backend. For e-commerce sites, Gabriel has created or worked on them using 5 different platforms including WooCommerce and Shopify. \n    If you would like to learn more please contact me or visit the social links at the bottom of the page.\n    Thanks for stopping by!"
 title = "About"
 url = "https://medium.com/@gabriel_wilkes"
