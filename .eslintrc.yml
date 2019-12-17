@@ -77,15 +77,6 @@ rules:
   no-undef: 2
   no-unused-vars: [2, { "args": "none" }]
 
-overrides:
-  files: ["**/*.md"]
-    rules:
-      no-undef: "off"
-      no-unused-vars: "off"
-      no-console: "off"
-      padded-blocks: "off"
-      no-useless-return: "off"
-
 # Global scoped method and vars
 globals:
   __dirname: true
