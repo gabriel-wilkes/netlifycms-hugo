@@ -75,6 +75,9 @@ url = "/index.html#about"
 name = "Portfolio"
 url = "/portfolio"
 [[params.navigation.links]]
+name = "Uses"
+url = "/uses"
+[[params.navigation.links]]
 name = "Blog"
 url = "https://medium.com/@gabriel_wilkes"
 [params.tiles]

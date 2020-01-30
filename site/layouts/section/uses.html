@@ -1,0 +1,39 @@
+<html>
+  {{ "<!-- Header -->" | safeHTML }} {{ partial "header.html" . }}
+
+  <body>
+    {{ "<!-- Wrapper -->" | safeHTML }}
+    <div id="wrapper">
+      {{ partial "nav.html" . }} {{ "<!-- Main -->" | safeHTML }}
+      <div id="main">
+        <section id="banner" class="style5">
+          <div class="inner">
+            <span class="image">
+              <img
+                src="{{ .Site.Params.baseURL }}/img/{{ .Params.image }}"
+                alt=""
+              />
+            </span>
+            <header class="major">
+              <h1>{{ .Title }}</h1>
+            </header>
+          </div>
+        </section>
+
+        <section id="two" class="spotlights">
+          <div class="inner">
+            <p>
+              {{ .Content }}
+            </p>
+          </div>
+        </section>
+      </div>
+
+      {{ "<!-- Footer -->" | safeHTML}} {{ if .Site.Params.footer.enable }}
+      <!-- prettier-ignore -->
+      {{ partial "footer.html" . }} {{ end }}
+    </div>
+
+    {{ "<!-- Scripts -->" | safeHTML}} {{ partial "js.html" . }}
+  </body>
+</html>
