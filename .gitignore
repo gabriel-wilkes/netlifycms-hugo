@@ -5,3 +5,4 @@ site/data/webpack.json
 yarn-error.log
 *.zip
 *old*
+**/.claude/settings.local.json

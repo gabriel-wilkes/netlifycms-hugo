@@ -1,5 +1,4 @@
 baseURL = "https://azul.technology/"
-googleAnalytics = "UA-33330753-1"
 languageCode = "en-us"
 pluralizeListTitles = false
 title = "Azul Technology"
@@ -8,6 +7,7 @@ enableEmoji = true
 custom_css = []
 custom_js = []
 description = "Azul Technology"
+googleAnalytics = "UA-33330753-1"
 favicon = "favicon.ico"
 image = ""
 name = "Gabriel Wilkes"

@@ -11,7 +11,7 @@
     {{ "<!-- Main JS -->" | safeHTML }}
     <script src="{{ "js/main.js"| absURL }}"></script>
 
-    {{ template "_internal/google_analytics_async.html" . }}
+    {{ partial "google-analytics.html" . }}
 
     {{ range .Site.Params.custom_js }}
         <script src="{{ . | absURL }}"></script>

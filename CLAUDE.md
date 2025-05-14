@@ -56,12 +56,20 @@ npm run build
 npm run build:preview
 ```
 
+## Hugo Compatibility Notes
+
+- The site was upgraded from Hugo 0.55.6 to 0.144.3+
+- These changes were required for compatibility:
+  1. Google Analytics implementation now uses a custom partial (`/site/layouts/partials/google-analytics.html`)
+  2. `.Hugo.Generator` changed to `hugo.Generator` in templates
+  3. Google Analytics ID moved from `googleAnalytics` site parameter to `params.googleAnalytics`
+
 ## Notes
 
-- Hugo version 0.55.6 is used in production
 - The site uses the Forty Hugo theme
 - Content editing can be done via:
   1. Direct Git workflow
   2. Forestry.io
   3. Netlify CMS (partial support)
 - The site automatically deploys to Netlify when changes are pushed to the repository
+- Sass deprecation warnings appear during build but don't affect functionality
