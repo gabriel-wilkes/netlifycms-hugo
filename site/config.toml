@@ -20,17 +20,16 @@ buttonclear = "Clear"
 buttonsend = "Send message"
 enable = true
 [[params.contact.address]]
-city = "Kumagaya, Saitama 360-0014"
-country = "Japan"
-street = "1-2-19 Hakoda"
+city = "Frisco, TX 75035"
+country = "USA"
+street = "15699 Wrangler Dr"
 title = "Address"
 [[params.contact.email]]
 email = "gabriel@azultech.com"
 email_url = "mailto:gabriel@azultech.com?Subject=Hello%20Gabriel"
 title = "Email"
 [[params.contact.phone]]
-phone = "+1 (714) 758-5275 (US)"
-phone2 = "+81 (80) 3729-2966 (Japan)"
+phone = "+1 (714) 758-5275"
 title = "Phone"
 [params.error404]
 heading = "404"
