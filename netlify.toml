@@ -4,7 +4,7 @@
 
 [build.environment]
   NPM_VERSION = "22.15.0"
-  HUGO_VERSION = "0.144.3"
+  HUGO_VERSION = "0.147.3"
 
 [context.deploy-preview]
   command = "npm run build:preview"
