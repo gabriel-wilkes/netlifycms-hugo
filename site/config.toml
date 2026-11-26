@@ -79,6 +79,9 @@ url = "/uses"
 [[params.navigation.links]]
 name = "Blog"
 url = "https://medium.com/@gabriel_wilkes"
+[[params.navigation.links]]
+name = "Privacy Policy"
+url = "/privacy/"
 [params.tiles]
 enable = true
 [[params.tiles.showcase]]

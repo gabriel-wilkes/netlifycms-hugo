@@ -3756,6 +3756,10 @@
 				padding-left: 0;
 			}
 
+			#footer .copyright li a.privacy {
+				color: #ffffff;
+			}
+
 	@media screen and (max-width: 480px) {
 
 		#footer .copyright li {
