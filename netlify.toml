@@ -8,3 +8,28 @@
 
 [context.deploy-preview]
   command = "npm run build:preview"
+
+# Canonical host. azultech.com is a domain alias; always send it to azul.technology.
+[[redirects]]
+  from = "https://azultech.com/*"
+  to = "https://azul.technology/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://azultech.com/*"
+  to = "https://azul.technology/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.azultech.com/*"
+  to = "https://azul.technology/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.azultech.com/*"
+  to = "https://azul.technology/:splat"
+  status = 301
+  force = true
